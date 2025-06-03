@@ -12,7 +12,7 @@
 # SAT, 05 JAN 2008 09:14:16 -0500
 import os
 
-name = input("Teclee el nombre del archivo:\n> ")
+name = input("Teclea el nombre del archivo:\n> ")
 
 with open(f'{name}', "r") as file:
     for line in file:
